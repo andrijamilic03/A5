@@ -1,0 +1,33 @@
+//string select = "SELECT Aktivnosti.Dan,COUNT(Registar_Aktivnosti.DeteID)";
+            //string from = "FROM Registar_Aktivnosti INNER JOIN Aktivnosti ON Registar_Aktivnosti.AktivnostID=Aktivnosti.AktivnostID  GROUP BY Aktivnosti.Dan";
+
+            //komanda.CommandText = select + " " + from;
+            //dataGridView1.DataSource = dt;
+            //dataGridView1.Columns[0].HeaderText = "Dan";
+            //dataGridView1.Columns[1].HeaderText = "Broj dece";
+            //dataGridView1.Columns[0].Width = (dataGridView1.Width - dataGridView1.RowHeadersWidth) / 2;
+            //dataGridView1.DataSource = dt;
+
+            // int k = 0;
+            //for(int i = 0; i < 7; ++i)
+            // {
+            //     for(int j = 0; j < dt.Rows.Count; ++j)
+            //     {
+            //         if(dt.Rows[j][0].ToString() == x[i])
+            //         {
+            //             dataGridView1.Rows[k].Cells[0].Value = dt.Rows[j][0].ToString();
+            //             dataGridView1.Rows[k++].Cells[1].Value = dt.Rows[j][1].ToString();
+            //         }
+            //     }
+            // }
+  //chart1.Series["Dan"].IsValueShownAsLabel = true;
+            //ArrayList dan = new ArrayList();
+            //ArrayList brdece = new ArrayList();
+            //chart1.Series["Dan"].Points.Clear();
+            //for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
+            //{
+
+            //    dan.Add(Convert.ToString(dataGridView1.Rows[i].Cells[0].Value));
+            //    brdece.Add(Convert.ToInt32(dataGridView1.Rows[i].Cells[1].Value));
+            //    chart1.Series["Dan"].Points.AddXY(dan[i], brdece[i]);
+            //}
